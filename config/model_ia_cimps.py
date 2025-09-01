@@ -34,7 +34,7 @@ print(f"🔍 Ejecutando como: {identity['Arn']}")
 print(f"🧾 Cuenta AWS: {identity['Account']}")
 
 
-bedrock_runtime = boto3.client(
+bedrock_runtime = session.client(
         service_name="bedrock-runtime",
         region_name="us-east-1",
     )
