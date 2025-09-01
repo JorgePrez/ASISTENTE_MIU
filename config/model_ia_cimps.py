@@ -17,7 +17,7 @@ import botocore
 
 
 
-IS_TESTING = True  # Cambiar a False para producción
+IS_TESTING = False  # Cambiar a False para producción
 
 
 # ✅ Importar solo en producción
@@ -36,7 +36,7 @@ print(f"🧾 Cuenta AWS: {identity['Account']}")
 
 bedrock_runtime = session.client(
         service_name="bedrock-runtime",
-        region_name="us-east-1",
+        region_name="us-east-1"
     )
 
 model_kwargs = {
@@ -52,8 +52,8 @@ if IS_TESTING:
     model_id_3_7 = "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
     model_id_3_5 = "us.anthropic.claude-3-5-sonnet-20240620-v1:0"
 else:
-    model_id_3_7 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/hkqiiam51emk"
-    model_id_3_5 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/yg7ijraub0q5"
+    model_id_3_7 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/ssbzqg79e5dm"
+    model_id_3_5 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/3zu0zc2t66sj"
 
 
 
@@ -306,7 +306,7 @@ def generar_configuracion_retriever(curso_impartido: str) -> dict:
                     "modelConfiguration": {
                         "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/cohere.rerank-v3-5:0",
                     },
-                    "numberOfRerankedResults": 25,
+                    "numberOfRerankedResults": 20,
                     "metadataConfiguration": {
                         "selectionMode": "SELECTIVE",
                         "selectiveModeConfiguration": {
