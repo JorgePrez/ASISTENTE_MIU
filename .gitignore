@@ -2,4 +2,6 @@ Prototipo.docx
 queries.sql
 Ejemplo*
 home*
+__pycache__/*
+config/__pycache__/*
 
