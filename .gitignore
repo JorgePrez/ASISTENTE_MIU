@@ -4,4 +4,5 @@ Ejemplo*
 home*
 __pycache__/*
 config/__pycache__/*
-
+__pycache__/
+*.pyc
