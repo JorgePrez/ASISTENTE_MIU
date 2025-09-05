@@ -251,6 +251,7 @@ def limpiar_metadata_retrieved(docs):
 
             # Limpiar claves innecesarias
             for clave in [
+                "nombre_archivo_original",
                 "x-amz-bedrock-kb-data-source-id",
                 "miu_documentos",
                 "x-amz-bedrock-kb-document-page-number",
