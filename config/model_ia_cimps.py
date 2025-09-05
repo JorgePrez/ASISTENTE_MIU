@@ -236,19 +236,26 @@ def limpiar_metadata_retrieved(docs):
         for clave in ["x-amz-bedrock-kb-data-source-id", "x-amz-bedrock-kb-source-uri","x-amz-bedrock-kb-document-page-number" ,"location" , "type", "score"]:
             doc.metadata.pop(clave, None)
 
+
         # 2. Limpiar metadata anidada dentro de source_metadata
-        if "source_metadata" in doc.metadata:
-            sm = doc.metadata["source_metadata"]
-            # Siempre viene, así que extraemos directo
-            sm["nombre_archivo"] = _extraer_nombre_archivo(sm["x-amz-bedrock-kb-source-uri"])
+        sm = doc.metadata.get("source_metadata")
+        if isinstance(sm, dict):
+            # Verificar si existe nombre_archivo_original y no está vacío
+            nombre_original = sm.get("nombre_archivo_original")
+            if nombre_original:
+                sm["nombre_archivo"] = nombre_original
+            else:
+                sm["nombre_archivo"] = _extraer_nombre_archivo(
+                    sm.get("x-amz-bedrock-kb-source-uri", "")
+                )
 
-
+            # Limpiar claves innecesarias
             for clave in [
                 "x-amz-bedrock-kb-data-source-id",
                 "miu_documentos",
                 "x-amz-bedrock-kb-document-page-number",
                 "curso_impartido",
-                "x-amz-bedrock-kb-source-uri",  
+                "x-amz-bedrock-kb-source-uri",
             ]:
                 sm.pop(clave, None)
 
