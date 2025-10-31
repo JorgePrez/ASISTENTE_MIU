@@ -256,7 +256,7 @@ def limpiar_metadata_retrieved(docs):
                 "x-amz-bedrock-kb-data-source-id",
                 "miu_documentos",
                 "x-amz-bedrock-kb-document-page-number",
-                "curso_impartido",
+                #"curso_impartido",
                 "x-amz-bedrock-kb-source-uri",
             ]:
                 sm.pop(clave, None)

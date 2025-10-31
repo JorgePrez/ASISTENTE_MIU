@@ -76,8 +76,8 @@ df["UserEmail"] = df["PK"].map(extract_email)
 df["UserQuestions"] = df["Chat"].map(count_user_msgs)
 
 # --- Solo agosto 2025 ---
-start = pd.Timestamp("2025-08-01", tz="UTC")
-end   = pd.Timestamp("2025-09-01", tz="UTC")
+start = pd.Timestamp("2025-09-01", tz="UTC")
+end   = pd.Timestamp("2025-10-01", tz="UTC")
 dfa = df[(df["CreatedAt"] >= start) & (df["CreatedAt"] < end)].copy()
 dfa["Month"] = dfa["CreatedAt"].dt.to_period("M").astype(str)
 
@@ -86,7 +86,7 @@ total_conversaciones = len(dfa)
 usuarios_unicos = dfa["UserEmail"].nunique()
 total_preguntas_usuario = int(dfa["UserQuestions"].sum())
 
-print("=== AGOSTO 2025 ===")
+print("=== SEPTIEMBRE 2025 ===")
 print(f"Conversaciones totales: {total_conversaciones}")
 print(f"Usuarios únicos: {usuarios_unicos}")
 print(f"Preguntas de usuario totales: {total_preguntas_usuario}")
