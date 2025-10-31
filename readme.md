@@ -1,4 +1,3 @@
-readme_miu = """
 # 📌 Asistente MIU – Despliegue en servidor EC2 (Streamlit + Systemd)
 
 Este documento describe el proceso para ejecutar el chatbot **Asistente MIU** como un servicio en Linux, usando **Python 3.11**, **Streamlit** y **systemd**, de manera que la aplicación se ejecute automáticamente en segundo plano y se reinicie si falla.
