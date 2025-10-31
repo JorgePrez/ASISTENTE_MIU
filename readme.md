@@ -110,6 +110,39 @@ http://<IP-del-servidor>:8191
 
 ---
 
+## 🌍 Acceso público temporal con Ngrok (dominio fijo)
+
+El asistente MIU está expuesto a internet mediante **Ngrok**, usando un dominio reservado y un servicio `systemd` que se inicia automáticamente con el servidor.
+
+### 🔐 Dominio público
+
+https://usefully-tops-cattle.ngrok-free.app
+
+
+*(Útil mientras no exista dominio oficial o DNS propio)*
+
+### ⚙️ Servicio `systemd` de Ngrok
+
+El túnel se gestiona con un servicio llamado `ngrok.service`, el cual:
+
+- Se ejecuta automáticamente al iniciar el servidor.
+- Usa el archivo de configuración:  
+  `/home/ec2-user/.config/ngrok/ngrok.yml`
+- Apunta al puerto interno `8191` donde corre Streamlit.
+- Mantiene un dominio fijo asignado por Ngrok.
+
+Comandos útiles:
+
+| Acción | Comando |
+|--------|---------|
+| Ver estado | `sudo systemctl status ngrok` |
+| Reiniciar ngrok | `sudo systemctl restart ngrok` |
+| Detener | `sudo systemctl stop ngrok` |
+| Ver logs en tiempo real | `sudo journalctl -u ngrok -f` |
+
+> ✅ Con esta configuración, no es necesario ejecutar ngrok manualmente — siempre arrancará junto con el servidor.
+
+
+
 👨‍💻 Autor: Jorge Pérez
-📅 Documento generado automáticamente
 """
