@@ -1,0 +1,12 @@
+[Unit]
+Description=Servidor Flask para transcripción con faster-whisper
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root
+ExecStart=/usr/bin/python3 /root/api_transcripcion.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

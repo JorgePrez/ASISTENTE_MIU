@@ -1,0 +1,12 @@
+[Unit]
+Description=Servidor Flask para conversión con LibreOffice
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/root
+ExecStart=/usr/local/bin/python3.11 /root/libreoffice_converter_api.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
