@@ -409,8 +409,8 @@ def build_cimps_chain(curso_impartido: str | int ):
     retriever = AmazonKnowledgeBasesRetriever(
         region_name="us-west-2",
         knowledge_base_id=BASE_CONOCIMIENTOS_CIMPS,
-        retrieval_config=generar_configuracion_retriever_all(curso_impartido)
-        #retrieval_config=generar_configuracion_retriever(curso_impartido)
+        ##retrieval_config=generar_configuracion_retriever_all(curso_impartido)
+        retrieval_config=generar_configuracion_retriever(curso_impartido)
     )
 
     filtered_retriever = retriever | RunnableLambda(limpiar_metadata_retrieved)
