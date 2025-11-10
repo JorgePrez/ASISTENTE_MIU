@@ -353,28 +353,19 @@ from langchain_core.runnables import RunnableLambda
 REFORMULATE_WITH_HISTORY_MIU_PROMPT = PromptTemplate.from_template("""
 Actúa como un reformulador de preguntas para un asistente académico especializado en los documentos de un curso impartido en la plataforma MiU de la Universidad Francisco Marroquín (UFM).
 
-Tu tarea es transformar la última pregunta del estudiante en una versión clara, autosuficiente y específica, adecuada para buscar en una base de conocimientos formada por materiales académicos. Estos materiales incluyen documentos PDF, archivos Word, guías, laboratorios, tareas, presentaciones y otros archivos subidos por el catedrático al curso.
+Tu tarea es reformular la última pregunta del estudiante en una versión **clara, específica y autosuficiente**, para que el sistema pueda identificar correctamente a qué documento o tema del curso se refiere.
 
-Toma en cuenta el historial completo del chat para hacer la reformulación más precisa:
-- Si anteriormente se mencionó un archivo específico (por ejemplo: “Lab1.pdf”, “Guía_Tarea3.docx”, “laboratorio de puntos extra”), incorpora el **nombre del archivo, título o descripción** ya mencionado en la reformulación.                                                       
-- Si el usuario responde con “sí”, “ese”, “correcto”, “el del laboratorio”, “el segundo archivo”, “el último”, etc., **identifica el documento al que se refiere con base en el historial** y úsalo explícitamente en la nueva pregunta.
-- Si el input original es ambiguo (por ejemplo: “explícamelo”, “muéstrame los ejercicios”), conviértelo en una consulta completa que especifique a qué documento se refiere.
+Ten en cuenta el historial completo del chat para contextualizar la pregunta:
+- Si se mencionó un archivo, título o descripción específica (por ejemplo: “Lab1.pdf”, “Guía_Tarea3.docx”, “laboratorio de puntos extra”), **inclúyelo explícitamente** en la nueva versión.                                                       
+- Si el usuario responde con frases como “sí”, “ese”, “correcto”, “el del laboratorio”, “el segundo”, “el último”, etc., **identifica el documento correspondiente** a partir del historial y úsalo en la reformulación.
+- Si la entrada es ambigua (por ejemplo: “explícamelo”, “muéstrame los ejercicios”), conviértela en una pregunta completa que especifique el documento o tema.
 - Si la pregunta ya es clara y autosuficiente, repítela tal como está.
 
-Reglas adicionales:
-- No inventes nombres de archivos, títulos ni descripciones. Solo incluye referencias documentales si ya han sido mencionadas en la conversación.
-- Reformula de forma que la pregunta resultante pueda ser entendida por sí sola, sin necesidad de ver el historial anterior.
-- No alteres el tema principal de la consulta del usuario.
-- Si el usuario menciona una **cantidad total exacta** (como “los 40 ejercicios”, “las 5 preguntas”), reformula la pregunta de forma **más flexible**: omite la cantidad específica y usa expresiones como **“todos los ejercicios disponibles”** o **“los ejercicios que aparecen en el documento”**. Esto evita errores si la cantidad exacta no puede ser confirmada de forma explícita en el contexto.
-- Esta regla **no aplica** si el número hace referencia a un ítem individual específico, como por ejemplo: “el ejercicio número 10”, “la pregunta 3”, “el punto 18”, etc. En esos casos, **mantén la referencia numérica exacta**.
-
-- Si el usuario solicita una **actividad generativa basada en el contenido** (por ejemplo: “hazme un quiz”, “genera preguntas de práctica”, “resume el texto con tus palabras”), reformula la pregunta para indicar que se desea **crear un recurso de apoyo basado en un documento específico ya mencionado**. Usa expresiones como:
-  - “En base al documento [nombre_archivo], genera un cuestionario de práctica para estudiar.”
-  - “A partir del documento mencionado, elabora un resumen  para facilitar su comprensión.”
-                                                                   
-- Evita usar expresiones como “resueltas”, “solucionadas”, “contestadas” o similares. Prefiere expresiones neutrales como “para practicar”, “para repasar” o “como referencia”.
-- Si el usuario utiliza verbos como “crear”, “inventar”, “hacer”, “formular”, “construir”, “elaborar”, etc., reformula usando el verbo **“generar”** para mantener consistencia con las funciones generativas permitidas por el asistente.
-                                                                   
+Reglas:
+- **No inventes nombres ni descripciones de archivos.** Solo utiliza los que aparecen en el historial.
+- La pregunta resultante debe poder entenderse por sí sola, sin necesidad de ver el historial.
+- No cambies el tema principal ni la intención del usuario.
+- Si el usuario menciona una cantidad exacta (como “los 40 ejercicios”), usa una forma más general como “todos los ejercicios del documento”, salvo que se refiera a un número específico (“ejercicio 10”, “pregunta 3”, etc.), que debes conservar.
 
 Responde solo con la pregunta reformulada, sin ninguna explicación.
 
@@ -386,6 +377,7 @@ Historial del chat:
 
 Pregunta reformulada:
 """)
+
 
 # Cadena de reformulación (usa el mismo modelo principal)
 reformulate_chain = REFORMULATE_WITH_HISTORY_MIU_PROMPT | model | StrOutputParser()
