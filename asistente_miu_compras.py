@@ -1,7 +1,7 @@
 import streamlit as st
 import config.dynamo_crud as DynamoDatabase
 import uuid
-from config.model_ia_cimps import run_cimps_chain 
+from config.model_ia_cimps_compras import run_cimps_chain 
 import requests
 
 from dotenv import load_dotenv
@@ -233,7 +233,7 @@ def main():
 
 
         # Obtener contexto desde la API
-    url = "https://intranet.ufm.edu/asistente_procesos_api.php"
+    url = "https://compras135.ufm.edu/asistente_procesos_api.php"
     params = {
             "buscarCursoNombre": "true",
             "curso_impartido": curso_impartido_id
