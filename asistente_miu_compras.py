@@ -1,5 +1,5 @@
 import streamlit as st
-import config.dynamo_crud as DynamoDatabase
+import config.dynamo_crud_compras as DynamoDatabase
 import uuid
 from config.model_ia_cimps_compras import run_cimps_chain 
 import requests
