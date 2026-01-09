@@ -135,10 +135,6 @@ modelNames = ChatBedrock(
 )
 
 
-
-#aws-sync-data-docs-
-#sync python2 aws- data docs sync de hacia el s3.
-
 #inference_profile3_5claudehaiku="us.anthropic.claude-3-5-haiku-20241022-v1:0"
 #inference_profile3claudehaiku="us.anthropic.claude-3-haiku-20240307-v1:0"
 #inference_profile3_5Sonnet="us.anthropic.claude-3-5-sonnet-20240620-v1:0"

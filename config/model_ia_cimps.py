@@ -1,5 +1,3 @@
-
-
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.runnables import RunnableParallel
 from langchain_core.output_parsers import StrOutputParser
@@ -16,13 +14,71 @@ import botocore
 #from langchain.callbacks.tracers.run_collector import collect_runs
 
 
+import requests
 
-IS_TESTING = False  # Cambiar a False para producción
+def get_models_for_chatbots(app: str, is_testing: bool) -> dict:
+    url = "https://intranet.ufm.edu/asistente_procesos_api.php"
+    params = {
+        "getModelsForChatbots": "true",
+        "app": app
+    }
+
+    headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    }
+
+    r = requests.get(url, params=params, headers=headers, timeout=10)
+    r.raise_for_status()
+
+    data = r.json()
+
+    if not data.get("success"):
+        raise RuntimeError("Error al obtener modelos")
+
+    model_chat = None
+    model_rename = None
+
+    for row in data["data"]:
+        if row["TIPO"] == "CHAT":
+            model_chat = (
+                row["MODEL_ID_BEDROCK"]
+                if is_testing
+                else row["MODEL_INFERENCE_PROFILE"]
+            )
+
+        elif row["TIPO"] == "RENAME":
+            model_rename = (
+                row["MODEL_ID_BEDROCK"]
+                if is_testing
+                else row["MODEL_INFERENCE_PROFILE"]
+            )
+
+    if not model_chat or not model_rename:
+        raise RuntimeError("Faltan modelos CHAT o RENAME")
+
+    return {
+        "CHAT": model_chat,
+        "RENAME": model_rename
+    }
+
+#IS_TESTING = False  # Cambiar a False para cuando este en el server
+IS_TESTING= False
+#
+
+#  siempre se registran los runs
+#if not IS_TESTING:
+#    from langchain.callbacks import collect_runs
 
 
-# ✅ Importar solo en producción
-if not IS_TESTING:
-    from langchain.callbacks import collect_runs
+
+models = get_models_for_chatbots(app="MIU", is_testing=IS_TESTING)
+
+model_id_chat   = models["CHAT"]
+model_id_rename = models["RENAME"]
+
+#print(model_id_chat)
+#print(model_id_rename)
+
 
 session = boto3.Session(profile_name="testing" if IS_TESTING else None)
 
@@ -41,37 +97,39 @@ bedrock_runtime = session.client(
 
 model_kwargs = {
     "max_tokens": 4096,
-    "temperature": 0.0,
     "top_k": 250,
-    "top_p": 1,
+    #"top_p": 1,
     "stop_sequences": ["\n\nHuman"],
 }
 
-# ✅ IDs de modelos según entorno
-if IS_TESTING:
-    model_id_3_7 = "us.anthropic.claude-3-7-sonnet-20250219-v1:0"
-    model_id_3_5 = "us.anthropic.claude-3-5-sonnet-20240620-v1:0"
-else:
-    model_id_3_7 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/ssbzqg79e5dm"
-    model_id_3_5 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/3zu0zc2t66sj"
 
 
-##request modelo
+#if IS_TESTING:
+#    model_id_3_7 = "global.anthropic.claude-sonnet-4-5-20250929-v1:0"
+#    model_id_3_5 = "global.anthropic.claude-haiku-4-5-20251001-v1:0"
+#else:
+#    model_id_3_7 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/n5jvsjttrqct"
+#    model_id_3_5 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/m3hbkxy84qfp"
 
 
 
-# ✅ Modelo Claude 3.7 Sonnet (para la chain principal)
+#print(model_id_3_5)
+
+#print(model_id_3_7)
+
+
+#  Modelo Claude 3.7 Sonnet (para la chain principal)
 model = ChatBedrock(
     client=bedrock_runtime,
-    model_id=model_id_3_7,
+    model_id=model_id_chat,
     model_kwargs=model_kwargs,
     provider="anthropic"
 )
 
-# ✅ Modelo Claude 3.5 Sonnet (para renombrar)
+#  Modelo Claude 3.5 Sonnet (para renombrar)
 modelNames = ChatBedrock(
     client=bedrock_runtime,
-    model_id=model_id_3_5,
+    model_id=model_id_rename,
     model_kwargs=model_kwargs,
     provider="anthropic"
 )
