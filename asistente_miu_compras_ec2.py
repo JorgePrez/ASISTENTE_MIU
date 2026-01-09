@@ -34,8 +34,6 @@ st.sidebar.markdown("<div style='height: 50px;'></div>", unsafe_allow_html=True)
 
 
 
-
-
 # Cargar variables de entorno
 load_dotenv()
 client = Client()
@@ -227,7 +225,7 @@ def main():
         st.stop()
 
     
-    titulo = f"Asistente del curso impartido - {curso_impartido_id} 🤖 - compras"
+    titulo = f"Asistente del curso impartido - {curso_impartido_id} 🤖"
 
 
 
@@ -253,7 +251,7 @@ def main():
 
         nombre_curso = evaluaciones_json.get("NOMBRE_CURSO", "")
         seccion = evaluaciones_json.get("SECCION", "")
-        titulo = f"Asistente del curso: {nombre_curso} - Sección {seccion} 🤖 ({curso_impartido_id}) - compras"
+        titulo = f"Asistente del curso: {nombre_curso} - Sección {seccion} 🤖 ({curso_impartido_id})"
 
 
 
