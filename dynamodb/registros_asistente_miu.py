@@ -3,9 +3,9 @@ import csv
 from datetime import datetime
 from collections import defaultdict
 
-TABLE_NAME = "CHHSessionTablePruebas"
+TABLE_NAME = "AsistenteMiuCursosImpartidos"
 FECHA_INICIO = datetime(2025, 8, 1)
-NOMBRE_CSV = "metricas_chatbot_desde_agosto.csv"
+NOMBRE_CSV = "metricas_asistente_miu.csv"
 
 dynamodb = boto3.resource("dynamodb")
 table = dynamodb.Table(TABLE_NAME)

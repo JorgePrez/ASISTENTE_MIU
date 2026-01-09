@@ -1,17 +1,17 @@
 import boto3
 
-# Configura tu cliente Bedrock
+# cliente Bedrock
 client = boto3.client("bedrock", region_name="us-east-1")
 
 # Parámetros del nuevo perfil
-inference_profile_name = "MIU-crossregion-claude37"
-description = "Asistente MiU usando Claude 3.7 "
+inference_profile_name = "MIU-Global-crossregion-claudesonnet45"
+description = "Asistente MiU usando Claude Sonnet 4.5 "
 model_source = {
-    "copyFrom": "arn:aws:bedrock:us-east-1:552102268375:inference-profile/us.anthropic.claude-3-7-sonnet-20250219-v1:0"
+    "copyFrom": "arn:aws:bedrock:us-east-1:552102268375:inference-profile/global.anthropic.claude-sonnet-4-5-20250929-v1:0"
 }
 tags = [
         {"key": "chatbot", "value": "MIU"},
-        {"key": "componente_chatbot", "value": "modelo_lenguaje_claude3_7"}
+        {"key": "componente_chatbot", "value": "modelo_lenguaje_claude45sonnet"}
 ]
 
 # Crear el perfil
@@ -25,3 +25,4 @@ response = client.create_inference_profile(
 # Mostrar el ARN del nuevo perfil
 print("Inference profile creado exitosamente:")
 print("ARN:", response["inferenceProfileArn"])
+

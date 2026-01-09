@@ -34,8 +34,6 @@ st.sidebar.markdown("<div style='height: 50px;'></div>", unsafe_allow_html=True)
 
 
 
-
-
 # Cargar variables de entorno
 load_dotenv()
 client = Client()
@@ -200,34 +198,69 @@ def invoke_with_retries_procesos(run_chain_fn, question, history, config=None, m
                     warning_placeholder.markdown("⚠️ **No fue posible generar la respuesta, vuelve a intentar.**", unsafe_allow_html=True)
 
 
+
+
+
 def main():
 
 
+
+    # 1. Obtener token desde la URL
     token = st.query_params.get("token")
 
-
-    if token:
-        try:
-            decoded = base64.b64decode(token).decode("utf-8")
-            data = json.loads(decoded)
-            st.session_state.username =session = data.get("user_id")
-            st.session_state.persona_id = persona_id=  data.get("id_persona")
-            st.session_state.curso_impartido_id = curso_impartido_id = data.get("curso_impartido_id")
-            st.session_state.servidor =servidor = data.get("servidor")
-            ts = data.get("ts")  # si lo usas
-
-            print(curso_impartido_id)
-
-        except Exception as e:
-            st.error("⚠️ Acceso denegado")
-            st.stop()
-
-    else:
-        st.error("⚠️ Acceso denegado.")
+    if not token:
+        st.error("⚠️ Acceso denegado")
         st.stop()
 
-    
-    titulo = f"Asistente del curso impartido - {curso_impartido_id} 🤖 - compras"
+    # 2. Validar token contra tu API en PHP
+    payload = {
+        "insertarTokenAsistente": "1",   # <-- ESTE ES EL VALOR CORRECTO
+        "token": token
+    }
+
+    headers = {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    }
+
+    url_api = "https://compras135.ufm.edu/asistente_procesos_api.php"
+
+    try:
+        response = requests.post(url_api, data=payload, headers=headers, timeout=10)
+        st.write("🔍 **Respuesta del API:**", response.text)  # DEBUG
+        result = response.json()
+    except Exception as e:
+        st.error("⚠️ Error al validar token.")
+        st.stop()
+
+    # 3. Revisar respuesta del API
+    if not result.get("success"):
+        st.error("⚠️ Error en validación del token.")
+        st.stop()
+
+    if result.get("resultado") == 0:
+        st.error("⚠️ Token inválido o ya utilizado.")
+        st.stop()
+
+
+    # 4. Si token es válido → ahora decodificamos el contenido
+    try:
+        decoded = base64.b64decode(token).decode("utf-8")
+        data = json.loads(decoded)
+
+        st.session_state.username = session  = data.get("user_id")
+        st.session_state.persona_id = persona_id = data.get("id_persona")
+        st.session_state.curso_impartido_id = curso_impartido_id= data.get("curso_impartido_id")
+        st.session_state.servidor = servidor= data.get("servidor")
+        ts = data.get("ts")
+
+    except Exception:
+        st.error("⚠️ Token corrupto o inválido.")
+        st.stop()
+
+    # 5. Mostrar título si todo estuvo bien
+    titulo = f"Asistente del curso impartido - {st.session_state.curso_impartido_id} 🤖"
+    st.title(titulo)
 
 
 
@@ -253,7 +286,7 @@ def main():
 
         nombre_curso = evaluaciones_json.get("NOMBRE_CURSO", "")
         seccion = evaluaciones_json.get("SECCION", "")
-        titulo = f"Asistente del curso: {nombre_curso} - Sección {seccion} 🤖 ({curso_impartido_id}) - compras"
+        titulo = f"Asistente del curso: {nombre_curso} - Sección {seccion} 🤖 ({curso_impartido_id})"
 
 
 

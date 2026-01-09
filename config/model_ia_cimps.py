@@ -56,6 +56,9 @@ else:
     model_id_3_5 = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/3zu0zc2t66sj"
 
 
+##request modelo
+
+
 
 # ✅ Modelo Claude 3.7 Sonnet (para la chain principal)
 model = ChatBedrock(
