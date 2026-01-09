@@ -97,6 +97,7 @@ bedrock_runtime = session.client(
 
 model_kwargs = {
     "max_tokens": 4096,
+    "temperature": 0.0,
     "top_k": 250,
     #"top_p": 1,
     "stop_sequences": ["\n\nHuman"],
