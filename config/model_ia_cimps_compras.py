@@ -62,7 +62,7 @@ def get_models_for_chatbots(app: str, is_testing: bool) -> dict:
     }
 
 #IS_TESTING = False  # Cambiar a False para cuando este en el server
-IS_TESTING= True
+IS_TESTING= False
 
 
 #  siempre se registran los runs
