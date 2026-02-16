@@ -1,0 +1,24 @@
+=== Ingestion Job Warnings: NO TEXT CONTENT FOUND ===
+
+KnowledgeBaseId: B0J6EB9XUO
+DataSourceId  : WKSWJ0IDZB
+Region        : us-west-2
+IngestionJobId: H5U0M5R9MS
+Status        : COMPLETE
+StartedAt     : 2026-01-16 13:00:35.841180+00:00
+UpdatedAt     : 2026-01-16 13:00:40.188707+00:00
+
+----------------------------------------
+
+[1]
+Encountered error: Ignored 4 files as no text content found in the files [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972972_FALACIASDEAMBIGUEDAD.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972962_DION1-3.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972969_CONCEPTO-DION.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972967_Lanaderiadelapersonalidad.pdf]. Call to Customer Source did not succeed.
+
+[2]
+Encountered error: Ignored 1 files as no text content found in the files [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/144901/20230676/miuDocumento_999515_MisesElMercadoInciso8.pdf]. Call to Customer Source did not succeed.
+
+[3]
+Encountered error: Ignored 2 files as no text content found in the files [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972970_DEFINICIONES-COPI.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/144901/20230676/miuDocumento_999513_RothbardElhombrelaeconomiayelestadocapitulo1inciso8.pdf]. Call to Customer Source did not succeed.
+
+[4]
+Encountered error: Ignored 2 files as no text content found in the files [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/144901/20230676/miuDocumento_999514_ParellaElMercadoDemandaOfertaElasticidad.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972964_Laaventuradepesar-Kant.pdf]. Call to Customer Source did not succeed.
+

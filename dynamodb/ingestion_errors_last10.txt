@@ -1,0 +1,73 @@
+BEDROCK KB INGESTION - LAST 10 JOBS + FAILURE REASONS
+=====================================================
+
+GeneratedAt GT : 2026-01-23 13:38:02 (America/Guatemala)
+KnowledgeBaseId: ZLSIIBQ6B3
+DataSourceId   : GERVMMQQKG
+
+LAST 10 JOBS (newest -> oldest)
+--------------------------------
+- 43RWAZZNPM | IN_PROGRESS | startedAt(GT): 2026-01-23 13:10:17
+- WSGPOQMQPH | COMPLETE | startedAt(GT): 2026-01-23 10:44:07
+- D3QX5F7HKS | COMPLETE | startedAt(GT): 2026-01-23 10:34:19
+- LNMKNOUDRT | COMPLETE | startedAt(GT): 2026-01-23 10:25:36
+- W0V3UX4LWA | COMPLETE | startedAt(GT): 2026-01-23 10:17:51
+- U2AWB3XDHI | COMPLETE | startedAt(GT): 2026-01-23 10:06:23
+- HLEJSLR4QF | COMPLETE | startedAt(GT): 2026-01-23 09:42:22
+- CR6VFQUWNB | COMPLETE | startedAt(GT): 2026-01-23 09:34:07
+- YNGDEKXL0F | COMPLETE | startedAt(GT): 2026-01-23 09:28:10
+- MZHQQIXL0U | COMPLETE | startedAt(GT): 2026-01-23 09:16:48
+
+--------------------------------
+SELECTED JOB
+--------------------------------
+Selected       : latest IN_PROGRESS -> using first finished in last 10
+IngestionJobId : WSGPOQMQPH
+Status         : COMPLETE
+StartedAt GT   : 2026-01-23 10:44:07
+UpdatedAt GT   : 2026-01-23 11:53:20
+
+--------------------------------
+SUMMARY BY CATEGORY
+--------------------------------
+Total failureReasons: 5
+
+- VALIDATION_ERROR: 3
+- OTHER: 1
+- SERVICE_ERROR: 1
+
+--------------------------------
+DETAIL (per category)
+--------------------------------
+
+[VALIDATION_ERROR] (3 reasons)
+FILES: (none detected in failureReasons)
+
+REASONS:
+  1. Encountered error: Invoke BDA job failed with status ClientError: Document format is invalid or not supported.. Issue occurred while processing file: DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999543_AFII9.pdf. Call to Customer Source did not succeed.
+  2. Encountered error: Invoke BDA job failed with status ClientError: Document format is invalid or not supported.. Issue occurred while processing file: DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999534_AFII2.pdf. Call to Customer Source did not succeed.
+  3. Encountered error: Invoke BDA job failed with status ClientError: Document format is invalid or not supported.. Issue occurred while processing file: DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_894587_ExplicacionespizarraAFII_claselunes30012023_925618_961630.pdf. Call to Customer Source did not succeed.
+
+--------------------------------------------
+
+[OTHER] (1 reasons)
+FILES: (none detected in failureReasons)
+
+REASONS:
+  1. Ignored 47 files as they were larger than service limit of MaximumFileSizeSupported: 52428800 bytes
+
+--------------------------------------------
+
+[SERVICE_ERROR] (1 reasons)
+FILES: (none detected in failureReasons)
+
+REASONS:
+  1. The server encountered an internal error while processing the request.
+
+--------------------------------------------
+
+
+================================
+EXTRA: PDFs with TEXT_EMPTY (no text content)
+================================
+TOTAL: 0

@@ -1,0 +1,51 @@
+=== Ingestion Job Warnings (latest completed job) ===
+
+KnowledgeBaseId: B0J6EB9XUO
+DataSourceId  : WKSWJ0IDZB
+Region        : us-west-2
+IngestionJobId: H5U0M5R9MS
+Status        : COMPLETE
+StartedAt     : 2026-01-16 13:00:35.841180+00:00
+UpdatedAt     : 2026-01-16 13:00:40.188707+00:00
+
+----------------------------------------
+
+[1]
+Ignored 3 files as they were larger than service limit of MaximumFileSizeSupported: 52428800 bytes
+
+[2]
+Ignored 6 video files as they were larger than service limit of MaximumFileSizeSupported: 52428800 bytes
+
+[3]
+Encountered error: Ignored 8 files as their file format was not supported. [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/140383/20080633/miuDocumento_972945_miuDocumento_812953_3Gretlymodelosdecrisisfinancieras_848918_852549_869790_905656_916958_921211_924403_956079_975610.mp4, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124591/20080633/miuDocumento_973131_verdadV2_2.mp4, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138999/20230676/miuDocumento_972883_ComoinstalarycargararchivosaGRETL.mp4, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138181/20230676/miuDocumento_972911_verdadV2_2.mp4, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124336/20080633/miuDocumento_973129_verdadV2_2.mp4, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/127236/20080633/miuDocumento_973176_verdadV2_2.mp4, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/140691/22770076/miuDocumento_973068_Gretlymodelosdecrisisfinancieras.mp4, ...
+
+[4]
+Encountered error: Ignored 6 files as their file format was not supported. [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138999/20230676/miuDocumento_972776_prompter.jpg, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/126369/20080633/miuDocumento_973143_LearningCard.png, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124336/20080633/miuDocumento_973126_ZonasFinalesA.png, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138999/20230676/miuDocumento_972780_LearningCard.png, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972958_ELCONOCIMIENTOCIENTIFICO.ppt, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/140699/22770076/miuDocumento_973203_verdadV2_2-Copy1.tar]. Call to Customer Source did not succeed.
+
+[5]
+Encountered error: Ignored 4 files as no text content found in the files [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972972_FALACIASDEAMBIGUEDAD.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972962_DION1-3.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972969_CONCEPTO-DION.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972967_Lanaderiadelapersonalidad.pdf]. Call to Customer Source did not succeed.
+
+[6]
+Encountered error: Ignored 1 files as no text content found in the files [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/144901/20230676/miuDocumento_999515_MisesElMercadoInciso8.pdf]. Call to Customer Source did not succeed.
+
+[7]
+Encountered error: Ignored 9 files as their file format was not supported. [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124591/20080633/miuDocumento_973136_prompter.jpg, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/127236/20080633/miuDocumento_973169_Modelologicoynormalizacion.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138181/20230676/miuDocumento_972913_prompter.jpg, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/140383/20080633/miuDocumento_972943_MBAChallenge2025GuiadeSalidaalCampo.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/126369/20080633/miuDocumento_973153_ELCONOCIMIENTOCIENTIFICO.ppt, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/126369/20080633/miuDocumento_973156_Modelologicoynormalizacion.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/140699/22770076/miuDocumento_973202_curso_derecho.zip, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124336/20080633/miuDo...
+
+[8]
+Encountered error: Ignored 10 files as their file format was not supported. [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/127406/20080633/miuDocumento_973184_LOSUSOSDELLENGUAJE.ppt, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138181/20230676/miuDocumento_972914_Modeloeclogico,DM2.jpeg, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/127406/20080633/miuDocumento_973180_LearningCard.png, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138999/20230676/miuDocumento_972885_PresentacionParkiate-ki.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138999/20230676/miuDocumento_972774_Modelologicoynormalizacion.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138181/20230676/miuDocumento_972912_ZonasFinalesA.png, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972960_OBJETOYFINALIDADDELALOGICA.ppt, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124336/20080633/miuDocum...
+
+[9]
+Encountered error: Ignored 2 files as no text content found in the files [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972970_DEFINICIONES-COPI.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/144901/20230676/miuDocumento_999513_RothbardElhombrelaeconomiayelestadocapitulo1inciso8.pdf]. Call to Customer Source did not succeed.
+
+[10]
+Encountered error: Ignored 8 files as their file format was not supported. [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/127406/20080633/miuDocumento_973179_prompter.jpg, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138181/20230676/miuDocumento_972901_1erparcial.zip, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/127406/20080633/miuDocumento_973182_Modelologicoynormalizacion.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124591/20080633/miuDocumento_973138_1erparcial.zip, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124591/20080633/miuDocumento_973137_ModeloeclogicoDM2.jpeg, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124591/20080633/miuDocumento_973133_MBAChallenge2025GuiadeSalidaalCampo.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/126369/20080633/miuDocumento_973142_ModeloeclogicoDM2.jpeg, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/124336/20080633/miuDocumento_973124_M...
+
+[11]
+Encountered error: Ignored 3 files as their file format was not supported. [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/127236/20080633/miuDocumento_973177_OBJETOYFINALIDADDELALOGICA.ppt, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/140383/20080633/miuDocumento_972947_1628638430.zip, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138999/20230676/miuDocumento_972884_image-31-819x1024.png]. Call to Customer Source did not succeed.
+
+[12]
+Encountered error: Ignored 8 files as their file format was not supported. [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/126369/20080633/miuDocumento_973154_LOSUSOSDELLENGUAJE.ppt, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/126369/20080633/miuDocumento_973152_ZonasFinalesA.png, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/127236/20080633/miuDocumento_973178_prompter.jpg, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972959_LOSUSOSDELLENGUAJE.ppt, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/126369/20080633/miuDocumento_973155_MBAChallenge2025GuiadeSalidaalCampo.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138181/20230676/miuDocumento_972915_LearningCard.png, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/138181/20230676/miuDocumento_972917_Tutoriapatocardio2p3alu.pptx, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/126369/20080633/miuDocumento_973141...
+
+[13]
+Encountered error: Ignored 2 files as no text content found in the files [Files: s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/144901/20230676/miuDocumento_999514_ParellaElMercadoDemandaOfertaElasticidad.pdf, s3://miu-documentos-compras/DATA-DOCS/miu-hml/documentos/136499/21950206/miuDocumento_972964_Laaventuradepesar-Kant.pdf]. Call to Customer Source did not succeed.
+

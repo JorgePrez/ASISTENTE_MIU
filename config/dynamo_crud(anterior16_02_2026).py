@@ -2,7 +2,6 @@ import boto3
 import json
 from botocore.exceptions import ClientError
 from datetime import datetime
-from boto3.dynamodb.conditions import Attr  
 import config.model_ia_cimps as model  # para usar model.generate_name
 
 # Inicializar recurso de DynamoDB
@@ -34,7 +33,6 @@ def getChats(user_id, curso_impartido_id):
     try:
         response = table.query(
             KeyConditionExpression=boto3.dynamodb.conditions.Key("PK").eq(f"USER#{user_id}#CIMP#{curso_impartido_id}"),
-            FilterExpression=Attr("IsDeleted").not_exists() | Attr("IsDeleted").eq(False),  # ✅ (2) agregar
             ScanIndexForward=False  # Orden descendente
         )
         data = response.get("Items", [])
@@ -55,13 +53,8 @@ def getChats(user_id, curso_impartido_id):
         return []
 
 def delete(chat_id, user_id, curso_impartido_id):
-    table.update_item(  # ✅ (3) reemplazar delete_item por update_item
-        Key={"PK": f"USER#{user_id}#CIMP#{curso_impartido_id}", "SK": f"CHAT#{chat_id}"},
-        UpdateExpression="SET IsDeleted = :d, DeletedAt = :ts",
-        ExpressionAttributeValues={
-            ":d": True,
-            ":ts": datetime.utcnow().isoformat()
-        }
+    table.delete_item(
+        Key={"PK": f"USER#{user_id}#CIMP#{curso_impartido_id}", "SK": f"CHAT#{chat_id}"}
     )
 
 def editName(chat_id, prompt, user_id, curso_impartido_id):

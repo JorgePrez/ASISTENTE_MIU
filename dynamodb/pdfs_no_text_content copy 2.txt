@@ -1,0 +1,427 @@
+PDFs SIN TEXTO (no text content found)
+===================================
+
+GeneratedAt GT : 2026-01-16 08:43:44 (America/Guatemala)
+KnowledgeBaseId: ZLSIIBQ6B3
+DataSourceId   : 4FQEKRDVOD
+Selected       : using latest job (status=COMPLETE)
+IngestionJobId : 6FQ8YCK8YM
+Status         : COMPLETE (picked_status=COMPLETE)
+StartedAt GT   : 2026-01-16 08:40:19
+UpdatedAt GT   : 2026-01-16 08:41:47
+
+-----------------------------------
+
+TOTAL FILES: 136
+WITH METADATA (.pdf.metadata.json): 135
+
+FILES:
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962843_DestrezaEnOrtodonciaDeMosby.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142938/30880182/miuDocumento_1000372_1_Aritmetica101_Aguilar.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997181_10.DosalCap2.1871-1898.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_990701_PUBLICCHOICE.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143611/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143411/20180085/miuDocumento_1000843_TheTriumphofEconomicScienceIsFukuyamaWrong.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144518/20180989/miuDocumento_997183_11.Dosal.Cap4.1931-1944.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/139046/23940014/miuDocumento_870437_Ordenespreypostop_905545_960358_974984.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143006/20180971/miuDocumento_1000202_IntroduccionalaobradeMelanieKlein.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962854_SeccionIIIDiagnostivoYPlanificacionDelTratamiento.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144002/20060194/miuDocumento_998413_PopolVuhunanuevalectura.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142942/96000376/miuDocumento_999139_Clase12026.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_1000130_Solucionlab1IMUFM.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143890/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962815_Capitulo7DiagnosticoYPlanDeTratamiento.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143318/20220206/miuDocumento_997814_Heyne-EconomicWayOfThinking-Chapter1.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_998768_Repasodesigualdadeslinealnolinealvalabs.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143737/20090036/miuDocumento_997971_12TeoriasdelDesarrollo.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144252/12910158/miuDocumento_987344_Capitulo15.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143360/12910611/miuDocumento_712478_Hayek_DLL_124_742863_774876_814243_836115_853014_910484_925346_944927_960950_980795.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_999657_1521Unatadodevidas.BernalDiazdelCastillonarrarlaconquistaentrevolcanes.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_991831_TheInnovatorsCapitulo8.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998641_Cap.4Desarrolloemocionaldelnino_compressed.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143882/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_998413_PopolVuhunanuevalectura.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999534_AFII2.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997183_11.Dosal.Cap4.1931-1944.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962817_Capitulo9DeterminantesDelPerfFacial.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962837_Chapter16TheFunctionRegulatorFR-2OfFrankel.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143985/21950206/miuDocumento_999134_Interpretaryargumentar-RiccardoGuastini.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143971/96000442/miuDocumento_997255_1.Diez-PicazoGullon-Losbienespatrimoniales.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144666/20040351/miuDocumento_1000867_referenciaPONENCIA-PARA-EL-TRINBUNAL-DE-HONOR.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143979/20020131/miuDocumento_997534_Lectura4-EstudiodeDerechoSocietario.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_987344_Capitulo15.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144252/12910158/miuDocumento_988421_ORIGINSOFVIRTUE_Chapter21011.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997213_11.JosMolinaCaldern.EmpresasfamiliaresdeGuatemala.50casosen200aos.SiglosXIXyXX.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143513/20140065/miuDocumento_998269_Prefaceofsystemsofsurvival.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142784/20110370/miuDocumento_891225_TomoIquiroz_961891.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143395/20150462/miuDocumento_1001102_15deEnero.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143736/20090036/miuDocumento_997971_12TeoriasdelDesarrollo.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144686/20220403/miuDocumento_999574_LineadeltiempoUSACH.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_999011_Repasoalgebra.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143143/20150598/miuDocumento_962813_Cabeza_y_Cuelloatlasnettercopia.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_1000783_diccionarioacomercialydeinversiones.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998644_Laclinicadelninoysuinterior_compressed.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144156/20250709/miuDocumento_1000717_HT1-Solucin.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/documentos/2005/82503/La_Teoria_Pura_del_Derecho_656071_684207_712455_742864_774884_814248_836107_853017_910494_925341_944916_960954_980799.pdf  | metadata: NO
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962841_Chapter23TheFunctionRegulatorFR-3OfFrankel.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142953/20160212/miuDocumento_999678_Clase1yMaterialesGeometra.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142993/20110574/miuDocumento_998777_Lacan-Seminario5Edipo.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144097/20060487/miuDocumento_870398_ParellaElMercadoDemandaOfertaElasticidad8a15_891869_906927_940826.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144249/99000144/miuDocumento_997228_E483966339CONTRATODGA-90E48396633987-2021.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144827/20230676/miuDocumento_997269_01.4Hazlitt-LaLeccin.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143000/96000548/miuDocumento_999591_Ejercicioderepaso.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142913/20060194/miuDocumento_997763_PrincesasTlaxcaltecas.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144590/20190609/miuDocumento_963706_Oakeshott-Paginas53-67(1).pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143315/20110084/miuDocumento_998442_02.Macroeconomia-4ta-Edicion-Stephen-Williamson-51-73.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143439/97000409/miuDocumento_998599_Kirzner1997.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144826/20151049/miuDocumento_1000749_Cronograma.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/133129/20090970/miuDocumento_923274_JohnLocke-Segundotratadosobreelgobiernocivil_958604_995580.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962829_Chapter12TranspalatalArch.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144003/20060194/miuDocumento_999657_1521Unatadodevidas.BernalDiazdelCastillonarrarlaconquistaentrevolcanes.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962837_Chapter16TheFunctionRegulatorFR-2OfFrankel.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144092/12870542/miuDocumento_997785_250105-florecimiento-racionalidad-honestidad-independencia-Orbaugh.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144224/20110462/miuDocumento_997417_Lectura-DefinicionDIP.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998643_FamiliaRealLluis-Font.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143005/13950296/miuDocumento_997992_TATCATSATUsoclinico-126-129.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144241/96000385/miuDocumento_998190_DiariodeSesionesdelaConstitucin.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_997547_AcuerdodeArbitrajeDiccionarioCecilaFloresRueda.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962829_Chapter12TranspalatalArch.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142968/20191070/miuDocumento_968047_2025EjercicioFinalSECCIONESCONSTRUCTIVASUFM.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143984/20120406/miuDocumento_997390_Bobbio-DerechoyFilosofiap31-77.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142893/20190609/miuDocumento_873145_Comonoscontrolanlasclasesdominantes(1)_890153_959324.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962815_Capitulo7DiagnosticoYPlanDeTratamiento.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144442/20151049/miuDocumento_1000749_Cronograma.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144121/12870542/miuDocumento_998143_250103-filosofia-quien-la-necesita-Rand.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143972/96000442/miuDocumento_998530_2.Diez-PicazoGullon-Elpatrimonio.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143313/20220206/miuDocumento_998543_MicroeconomicsystemsasanexperimentalscienceSmith1982.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143440/97000409/miuDocumento_998599_Kirzner1997.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962819_Capitulo10EvaluacionDeFotografiasYRadiografias.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_998553_El_senorio_de_Huehuetenango_en_el_siglo.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143504/20150462/miuDocumento_1001103_15deEnero.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143016/23810061/miuDocumento_742293_MaterialesBattelle_922631_942503_959366_979321.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_991829_TheInnovatorsCapitulo7.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_997546_CLO1Lecturaprincipal5ElacuerdoarbitralAlvaroCastellanos.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144009/20041153/miuDocumento_997688_TeoriadeComunicacion4.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999538_AFII5.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143320/22810023/miuDocumento_996318_11.1SupplyDemandandEquilibrium-Landsburg.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143851/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_989152_Socialismo_Misescap5_NaturalezadelaEconomia-2.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142922/20190341/miuDocumento_1000772_11.ElsistemapolticodeGuatemalaVol.II.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143009/23810061/miuDocumento_1001069_Etica_7.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144626/30920008/miuDocumento_980728_pizarronForecastingjulio20225(1).pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143736/20090036/miuDocumento_997968_Brainwash.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144125/12870542/miuDocumento_998152_250715-alegoria-de-la-caverna-platon.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998648_Lecturadecapitulos1-3Hammer.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/124795/20010364/miuDocumento_870421_ManualdeProcedimientosdeOperacionEstandardelCIEIUFMHUEyanexos_924724_981675_995362.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742291_Battelle-CuadernilloAnotacion_759525_922636_942486_959362_979306.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962823_Capitulo19.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144122/12870542/miuDocumento_998152_250715-alegoria-de-la-caverna-platon.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144782/12890465/miuDocumento_997823_2.PoderPoltico41-62.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142924/20010656/miuDocumento_997353_LadoctrinadelaguerrajustaenSanAgustin.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143360/12910611/Friedman_Capitulo_12_656072_684212_712458_742867_774887_814249_836121_853011_910489_925343_944921_960944_980797.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143351/20120084/miuDocumento_998704_Powell-OutofPovertyPrefaceandIntroduction.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142993/20110574/miuDocumento_998820_Lacan-Seminario8transferencia.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143883/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144125/12870542/miuDocumento_998143_250103-filosofia-quien-la-necesita-Rand.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143395/20150462/miuDocumento_998221_6deEnero.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144097/20060487/miuDocumento_870403_RothbardElhombrelaeconomiayelestadocapitulo1inciso8_891872_906931_940830.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20150462/miuDocumento_1001101_15deEnero.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144238/20190522/miuDocumento_997285_Lectura2.EdmundoVsquezMartnez.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742291_Battelle-CuadernilloAnotacion_759525_922636_942486_959362.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742294_PROTOCOLODIBUJOFIGURAHUMANA_922633_942514_959392_979345.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962789_0003-321928195829028_01133Aditsai_2_0.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999539_AFII6.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144238/20190522/miuDocumento_997284_Lectura1.EdmundoVsquezMartnez.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999533_AFII1.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144224/20110462/miuDocumento_1000798_CasoPlataformaContinentalMardelNorte.3.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143885/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142795/20180550/miuDocumento_999690_Tabla.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144312/20040351/miuDocumento_1000867_referenciaPONENCIA-PARA-EL-TRINBUNAL-DE-HONOR.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144223/20110462/miuDocumento_997417_Lectura-DefinicionDIP.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144056/20010492/miuDocumento_998050_RushworthM.Kidder_capitulo1.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142925/20140469/miuDocumento_997575_3.Mary_Buffett_David_Clark_Warren_Buffett_and_the.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/136208/20090970/miuDocumento_944212_TheHumanCondition-Arendt_958665_980236_995492.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143986/21950206/miuDocumento_999136_Teorasdelatpicajurdica1-33.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142911/20180614/miuDocumento_963517_RelacionesInternacionales3.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143629/23940014/miuDocumento_870437_Ordenespreypostop_905545_960358_974984.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962831_Chapter14TheSchwarzAppliance.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999542_AFII8.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143979/20020131/miuDocumento_997530_Lectura2-LasociedadcomocontratoCarlosAugustoVanasco.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144233/97000389/miuDocumento_998120_caso_el_profesorjannetmacombe2026.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142911/20180614/miuDocumento_963515_RelacionesInternacionales.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142909/20220403/miuDocumento_1000831_the3agesofgeopolitics.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144708/20180351/miuDocumento_996392_2.WendtAnarchyiswhatstatesmakeofit1992.pdf  | metadata: YES
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142918/12890465/miuDocumento_997275_2.SamuelSolonpp.16-43.pdf  | metadata: YES
+
+
+FILES WITH METADATA:
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962843_DestrezaEnOrtodonciaDeMosby.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962843_DestrezaEnOrtodonciaDeMosby.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142938/30880182/miuDocumento_1000372_1_Aritmetica101_Aguilar.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142938/30880182/miuDocumento_1000372_1_Aritmetica101_Aguilar.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997181_10.DosalCap2.1871-1898.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997181_10.DosalCap2.1871-1898.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_990701_PUBLICCHOICE.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_990701_PUBLICCHOICE.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143611/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143611/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143411/20180085/miuDocumento_1000843_TheTriumphofEconomicScienceIsFukuyamaWrong.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143411/20180085/miuDocumento_1000843_TheTriumphofEconomicScienceIsFukuyamaWrong.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144518/20180989/miuDocumento_997183_11.Dosal.Cap4.1931-1944.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144518/20180989/miuDocumento_997183_11.Dosal.Cap4.1931-1944.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/139046/23940014/miuDocumento_870437_Ordenespreypostop_905545_960358_974984.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/139046/23940014/miuDocumento_870437_Ordenespreypostop_905545_960358_974984.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143006/20180971/miuDocumento_1000202_IntroduccionalaobradeMelanieKlein.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143006/20180971/miuDocumento_1000202_IntroduccionalaobradeMelanieKlein.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962854_SeccionIIIDiagnostivoYPlanificacionDelTratamiento.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962854_SeccionIIIDiagnostivoYPlanificacionDelTratamiento.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144002/20060194/miuDocumento_998413_PopolVuhunanuevalectura.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144002/20060194/miuDocumento_998413_PopolVuhunanuevalectura.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142942/96000376/miuDocumento_999139_Clase12026.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142942/96000376/miuDocumento_999139_Clase12026.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_1000130_Solucionlab1IMUFM.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_1000130_Solucionlab1IMUFM.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143890/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143890/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962815_Capitulo7DiagnosticoYPlanDeTratamiento.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962815_Capitulo7DiagnosticoYPlanDeTratamiento.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143318/20220206/miuDocumento_997814_Heyne-EconomicWayOfThinking-Chapter1.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143318/20220206/miuDocumento_997814_Heyne-EconomicWayOfThinking-Chapter1.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_998768_Repasodesigualdadeslinealnolinealvalabs.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_998768_Repasodesigualdadeslinealnolinealvalabs.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143737/20090036/miuDocumento_997971_12TeoriasdelDesarrollo.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143737/20090036/miuDocumento_997971_12TeoriasdelDesarrollo.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144252/12910158/miuDocumento_987344_Capitulo15.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144252/12910158/miuDocumento_987344_Capitulo15.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143360/12910611/miuDocumento_712478_Hayek_DLL_124_742863_774876_814243_836115_853014_910484_925346_944927_960950_980795.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143360/12910611/miuDocumento_712478_Hayek_DLL_124_742863_774876_814243_836115_853014_910484_925346_944927_960950_980795.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_999657_1521Unatadodevidas.BernalDiazdelCastillonarrarlaconquistaentrevolcanes.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_999657_1521Unatadodevidas.BernalDiazdelCastillonarrarlaconquistaentrevolcanes.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_991831_TheInnovatorsCapitulo8.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_991831_TheInnovatorsCapitulo8.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998641_Cap.4Desarrolloemocionaldelnino_compressed.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998641_Cap.4Desarrolloemocionaldelnino_compressed.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143882/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143882/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_998413_PopolVuhunanuevalectura.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_998413_PopolVuhunanuevalectura.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999534_AFII2.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999534_AFII2.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997183_11.Dosal.Cap4.1931-1944.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997183_11.Dosal.Cap4.1931-1944.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962817_Capitulo9DeterminantesDelPerfFacial.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962817_Capitulo9DeterminantesDelPerfFacial.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962837_Chapter16TheFunctionRegulatorFR-2OfFrankel.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962837_Chapter16TheFunctionRegulatorFR-2OfFrankel.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143985/21950206/miuDocumento_999134_Interpretaryargumentar-RiccardoGuastini.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143985/21950206/miuDocumento_999134_Interpretaryargumentar-RiccardoGuastini.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143971/96000442/miuDocumento_997255_1.Diez-PicazoGullon-Losbienespatrimoniales.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143971/96000442/miuDocumento_997255_1.Diez-PicazoGullon-Losbienespatrimoniales.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144666/20040351/miuDocumento_1000867_referenciaPONENCIA-PARA-EL-TRINBUNAL-DE-HONOR.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144666/20040351/miuDocumento_1000867_referenciaPONENCIA-PARA-EL-TRINBUNAL-DE-HONOR.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143979/20020131/miuDocumento_997534_Lectura4-EstudiodeDerechoSocietario.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143979/20020131/miuDocumento_997534_Lectura4-EstudiodeDerechoSocietario.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_987344_Capitulo15.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_987344_Capitulo15.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144252/12910158/miuDocumento_988421_ORIGINSOFVIRTUE_Chapter21011.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144252/12910158/miuDocumento_988421_ORIGINSOFVIRTUE_Chapter21011.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997213_11.JosMolinaCaldern.EmpresasfamiliaresdeGuatemala.50casosen200aos.SiglosXIXyXX.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144519/20180989/miuDocumento_997213_11.JosMolinaCaldern.EmpresasfamiliaresdeGuatemala.50casosen200aos.SiglosXIXyXX.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143513/20140065/miuDocumento_998269_Prefaceofsystemsofsurvival.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143513/20140065/miuDocumento_998269_Prefaceofsystemsofsurvival.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142784/20110370/miuDocumento_891225_TomoIquiroz_961891.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142784/20110370/miuDocumento_891225_TomoIquiroz_961891.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143395/20150462/miuDocumento_1001102_15deEnero.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143395/20150462/miuDocumento_1001102_15deEnero.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143736/20090036/miuDocumento_997971_12TeoriasdelDesarrollo.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143736/20090036/miuDocumento_997971_12TeoriasdelDesarrollo.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144686/20220403/miuDocumento_999574_LineadeltiempoUSACH.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144686/20220403/miuDocumento_999574_LineadeltiempoUSACH.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_999011_Repasoalgebra.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20260602/miuDocumento_999011_Repasoalgebra.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143143/20150598/miuDocumento_962813_Cabeza_y_Cuelloatlasnettercopia.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143143/20150598/miuDocumento_962813_Cabeza_y_Cuelloatlasnettercopia.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_1000783_diccionarioacomercialydeinversiones.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_1000783_diccionarioacomercialydeinversiones.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998644_Laclinicadelninoysuinterior_compressed.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998644_Laclinicadelninoysuinterior_compressed.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144156/20250709/miuDocumento_1000717_HT1-Solucin.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144156/20250709/miuDocumento_1000717_HT1-Solucin.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962841_Chapter23TheFunctionRegulatorFR-3OfFrankel.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962841_Chapter23TheFunctionRegulatorFR-3OfFrankel.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142953/20160212/miuDocumento_999678_Clase1yMaterialesGeometra.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142953/20160212/miuDocumento_999678_Clase1yMaterialesGeometra.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142993/20110574/miuDocumento_998777_Lacan-Seminario5Edipo.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142993/20110574/miuDocumento_998777_Lacan-Seminario5Edipo.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144097/20060487/miuDocumento_870398_ParellaElMercadoDemandaOfertaElasticidad8a15_891869_906927_940826.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144097/20060487/miuDocumento_870398_ParellaElMercadoDemandaOfertaElasticidad8a15_891869_906927_940826.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144249/99000144/miuDocumento_997228_E483966339CONTRATODGA-90E48396633987-2021.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144249/99000144/miuDocumento_997228_E483966339CONTRATODGA-90E48396633987-2021.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144827/20230676/miuDocumento_997269_01.4Hazlitt-LaLeccin.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144827/20230676/miuDocumento_997269_01.4Hazlitt-LaLeccin.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143000/96000548/miuDocumento_999591_Ejercicioderepaso.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143000/96000548/miuDocumento_999591_Ejercicioderepaso.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142913/20060194/miuDocumento_997763_PrincesasTlaxcaltecas.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142913/20060194/miuDocumento_997763_PrincesasTlaxcaltecas.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144590/20190609/miuDocumento_963706_Oakeshott-Paginas53-67(1).pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144590/20190609/miuDocumento_963706_Oakeshott-Paginas53-67(1).pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143315/20110084/miuDocumento_998442_02.Macroeconomia-4ta-Edicion-Stephen-Williamson-51-73.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143315/20110084/miuDocumento_998442_02.Macroeconomia-4ta-Edicion-Stephen-Williamson-51-73.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143439/97000409/miuDocumento_998599_Kirzner1997.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143439/97000409/miuDocumento_998599_Kirzner1997.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144826/20151049/miuDocumento_1000749_Cronograma.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144826/20151049/miuDocumento_1000749_Cronograma.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/133129/20090970/miuDocumento_923274_JohnLocke-Segundotratadosobreelgobiernocivil_958604_995580.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/133129/20090970/miuDocumento_923274_JohnLocke-Segundotratadosobreelgobiernocivil_958604_995580.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962829_Chapter12TranspalatalArch.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962829_Chapter12TranspalatalArch.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144003/20060194/miuDocumento_999657_1521Unatadodevidas.BernalDiazdelCastillonarrarlaconquistaentrevolcanes.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144003/20060194/miuDocumento_999657_1521Unatadodevidas.BernalDiazdelCastillonarrarlaconquistaentrevolcanes.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962837_Chapter16TheFunctionRegulatorFR-2OfFrankel.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962837_Chapter16TheFunctionRegulatorFR-2OfFrankel.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144092/12870542/miuDocumento_997785_250105-florecimiento-racionalidad-honestidad-independencia-Orbaugh.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144092/12870542/miuDocumento_997785_250105-florecimiento-racionalidad-honestidad-independencia-Orbaugh.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144224/20110462/miuDocumento_997417_Lectura-DefinicionDIP.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144224/20110462/miuDocumento_997417_Lectura-DefinicionDIP.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998643_FamiliaRealLluis-Font.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998643_FamiliaRealLluis-Font.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143005/13950296/miuDocumento_997992_TATCATSATUsoclinico-126-129.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143005/13950296/miuDocumento_997992_TATCATSATUsoclinico-126-129.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144241/96000385/miuDocumento_998190_DiariodeSesionesdelaConstitucin.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144241/96000385/miuDocumento_998190_DiariodeSesionesdelaConstitucin.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_997547_AcuerdodeArbitrajeDiccionarioCecilaFloresRueda.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_997547_AcuerdodeArbitrajeDiccionarioCecilaFloresRueda.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962829_Chapter12TranspalatalArch.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962829_Chapter12TranspalatalArch.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142968/20191070/miuDocumento_968047_2025EjercicioFinalSECCIONESCONSTRUCTIVASUFM.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142968/20191070/miuDocumento_968047_2025EjercicioFinalSECCIONESCONSTRUCTIVASUFM.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143984/20120406/miuDocumento_997390_Bobbio-DerechoyFilosofiap31-77.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143984/20120406/miuDocumento_997390_Bobbio-DerechoyFilosofiap31-77.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142893/20190609/miuDocumento_873145_Comonoscontrolanlasclasesdominantes(1)_890153_959324.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142893/20190609/miuDocumento_873145_Comonoscontrolanlasclasesdominantes(1)_890153_959324.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962815_Capitulo7DiagnosticoYPlanDeTratamiento.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962815_Capitulo7DiagnosticoYPlanDeTratamiento.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144442/20151049/miuDocumento_1000749_Cronograma.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144442/20151049/miuDocumento_1000749_Cronograma.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144121/12870542/miuDocumento_998143_250103-filosofia-quien-la-necesita-Rand.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144121/12870542/miuDocumento_998143_250103-filosofia-quien-la-necesita-Rand.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143972/96000442/miuDocumento_998530_2.Diez-PicazoGullon-Elpatrimonio.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143972/96000442/miuDocumento_998530_2.Diez-PicazoGullon-Elpatrimonio.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143313/20220206/miuDocumento_998543_MicroeconomicsystemsasanexperimentalscienceSmith1982.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143313/20220206/miuDocumento_998543_MicroeconomicsystemsasanexperimentalscienceSmith1982.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143440/97000409/miuDocumento_998599_Kirzner1997.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143440/97000409/miuDocumento_998599_Kirzner1997.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962819_Capitulo10EvaluacionDeFotografiasYRadiografias.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962819_Capitulo10EvaluacionDeFotografiasYRadiografias.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_998553_El_senorio_de_Huehuetenango_en_el_siglo.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142914/20060194/miuDocumento_998553_El_senorio_de_Huehuetenango_en_el_siglo.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143504/20150462/miuDocumento_1001103_15deEnero.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143504/20150462/miuDocumento_1001103_15deEnero.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143016/23810061/miuDocumento_742293_MaterialesBattelle_922631_942503_959366_979321.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143016/23810061/miuDocumento_742293_MaterialesBattelle_922631_942503_959366_979321.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_991829_TheInnovatorsCapitulo7.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_991829_TheInnovatorsCapitulo7.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_997546_CLO1Lecturaprincipal5ElacuerdoarbitralAlvaroCastellanos.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144723/21810012/miuDocumento_997546_CLO1Lecturaprincipal5ElacuerdoarbitralAlvaroCastellanos.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144009/20041153/miuDocumento_997688_TeoriadeComunicacion4.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144009/20041153/miuDocumento_997688_TeoriadeComunicacion4.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999538_AFII5.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999538_AFII5.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143320/22810023/miuDocumento_996318_11.1SupplyDemandandEquilibrium-Landsburg.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143320/22810023/miuDocumento_996318_11.1SupplyDemandandEquilibrium-Landsburg.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143851/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143851/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_989152_Socialismo_Misescap5_NaturalezadelaEconomia-2.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144170/12910158/miuDocumento_989152_Socialismo_Misescap5_NaturalezadelaEconomia-2.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142922/20190341/miuDocumento_1000772_11.ElsistemapolticodeGuatemalaVol.II.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142922/20190341/miuDocumento_1000772_11.ElsistemapolticodeGuatemalaVol.II.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143009/23810061/miuDocumento_1001069_Etica_7.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143009/23810061/miuDocumento_1001069_Etica_7.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144626/30920008/miuDocumento_980728_pizarronForecastingjulio20225(1).pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144626/30920008/miuDocumento_980728_pizarronForecastingjulio20225(1).pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143736/20090036/miuDocumento_997968_Brainwash.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143736/20090036/miuDocumento_997968_Brainwash.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144125/12870542/miuDocumento_998152_250715-alegoria-de-la-caverna-platon.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144125/12870542/miuDocumento_998152_250715-alegoria-de-la-caverna-platon.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998648_Lecturadecapitulos1-3Hammer.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142995/20180451/miuDocumento_998648_Lecturadecapitulos1-3Hammer.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/124795/20010364/miuDocumento_870421_ManualdeProcedimientosdeOperacionEstandardelCIEIUFMHUEyanexos_924724_981675_995362.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/124795/20010364/miuDocumento_870421_ManualdeProcedimientosdeOperacionEstandardelCIEIUFMHUEyanexos_924724_981675_995362.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742291_Battelle-CuadernilloAnotacion_759525_922636_942486_959362_979306.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742291_Battelle-CuadernilloAnotacion_759525_922636_942486_959362_979306.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962823_Capitulo19.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143144/20150598/miuDocumento_962823_Capitulo19.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144122/12870542/miuDocumento_998152_250715-alegoria-de-la-caverna-platon.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144122/12870542/miuDocumento_998152_250715-alegoria-de-la-caverna-platon.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144782/12890465/miuDocumento_997823_2.PoderPoltico41-62.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144782/12890465/miuDocumento_997823_2.PoderPoltico41-62.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142924/20010656/miuDocumento_997353_LadoctrinadelaguerrajustaenSanAgustin.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142924/20010656/miuDocumento_997353_LadoctrinadelaguerrajustaenSanAgustin.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143360/12910611/Friedman_Capitulo_12_656072_684212_712458_742867_774887_814249_836121_853011_910489_925343_944921_960944_980797.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143360/12910611/Friedman_Capitulo_12_656072_684212_712458_742867_774887_814249_836121_853011_910489_925343_944921_960944_980797.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143351/20120084/miuDocumento_998704_Powell-OutofPovertyPrefaceandIntroduction.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143351/20120084/miuDocumento_998704_Powell-OutofPovertyPrefaceandIntroduction.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142993/20110574/miuDocumento_998820_Lacan-Seminario8transferencia.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142993/20110574/miuDocumento_998820_Lacan-Seminario8transferencia.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143883/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143883/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144125/12870542/miuDocumento_998143_250103-filosofia-quien-la-necesita-Rand.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144125/12870542/miuDocumento_998143_250103-filosofia-quien-la-necesita-Rand.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143395/20150462/miuDocumento_998221_6deEnero.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143395/20150462/miuDocumento_998221_6deEnero.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144097/20060487/miuDocumento_870403_RothbardElhombrelaeconomiayelestadocapitulo1inciso8_891872_906931_940830.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144097/20060487/miuDocumento_870403_RothbardElhombrelaeconomiayelestadocapitulo1inciso8_891872_906931_940830.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20150462/miuDocumento_1001101_15deEnero.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143354/20150462/miuDocumento_1001101_15deEnero.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144238/20190522/miuDocumento_997285_Lectura2.EdmundoVsquezMartnez.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144238/20190522/miuDocumento_997285_Lectura2.EdmundoVsquezMartnez.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742291_Battelle-CuadernilloAnotacion_759525_922636_942486_959362.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742291_Battelle-CuadernilloAnotacion_759525_922636_942486_959362.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742294_PROTOCOLODIBUJOFIGURAHUMANA_922633_942514_959392_979345.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143022/23810061/miuDocumento_742294_PROTOCOLODIBUJOFIGURAHUMANA_922633_942514_959392_979345.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962789_0003-321928195829028_01133Aditsai_2_0.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962789_0003-321928195829028_01133Aditsai_2_0.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999539_AFII6.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999539_AFII6.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144238/20190522/miuDocumento_997284_Lectura1.EdmundoVsquezMartnez.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144238/20190522/miuDocumento_997284_Lectura1.EdmundoVsquezMartnez.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999533_AFII1.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999533_AFII1.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144224/20110462/miuDocumento_1000798_CasoPlataformaContinentalMardelNorte.3.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144224/20110462/miuDocumento_1000798_CasoPlataformaContinentalMardelNorte.3.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143885/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143885/23890034/miuDocumento_999246_Sindromedecaudaequina.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142795/20180550/miuDocumento_999690_Tabla.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142795/20180550/miuDocumento_999690_Tabla.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144312/20040351/miuDocumento_1000867_referenciaPONENCIA-PARA-EL-TRINBUNAL-DE-HONOR.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144312/20040351/miuDocumento_1000867_referenciaPONENCIA-PARA-EL-TRINBUNAL-DE-HONOR.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144223/20110462/miuDocumento_997417_Lectura-DefinicionDIP.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144223/20110462/miuDocumento_997417_Lectura-DefinicionDIP.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144056/20010492/miuDocumento_998050_RushworthM.Kidder_capitulo1.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144056/20010492/miuDocumento_998050_RushworthM.Kidder_capitulo1.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142925/20140469/miuDocumento_997575_3.Mary_Buffett_David_Clark_Warren_Buffett_and_the.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142925/20140469/miuDocumento_997575_3.Mary_Buffett_David_Clark_Warren_Buffett_and_the.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/136208/20090970/miuDocumento_944212_TheHumanCondition-Arendt_958665_980236_995492.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/136208/20090970/miuDocumento_944212_TheHumanCondition-Arendt_958665_980236_995492.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143986/21950206/miuDocumento_999136_Teorasdelatpicajurdica1-33.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143986/21950206/miuDocumento_999136_Teorasdelatpicajurdica1-33.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142911/20180614/miuDocumento_963517_RelacionesInternacionales3.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142911/20180614/miuDocumento_963517_RelacionesInternacionales3.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143629/23940014/miuDocumento_870437_Ordenespreypostop_905545_960358_974984.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143629/23940014/miuDocumento_870437_Ordenespreypostop_905545_960358_974984.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962831_Chapter14TheSchwarzAppliance.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143155/20150598/miuDocumento_962831_Chapter14TheSchwarzAppliance.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999542_AFII8.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144344/20200988/miuDocumento_999542_AFII8.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143979/20020131/miuDocumento_997530_Lectura2-LasociedadcomocontratoCarlosAugustoVanasco.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/143979/20020131/miuDocumento_997530_Lectura2-LasociedadcomocontratoCarlosAugustoVanasco.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144233/97000389/miuDocumento_998120_caso_el_profesorjannetmacombe2026.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144233/97000389/miuDocumento_998120_caso_el_profesorjannetmacombe2026.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142911/20180614/miuDocumento_963515_RelacionesInternacionales.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142911/20180614/miuDocumento_963515_RelacionesInternacionales.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142909/20220403/miuDocumento_1000831_the3agesofgeopolitics.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142909/20220403/miuDocumento_1000831_the3agesofgeopolitics.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144708/20180351/miuDocumento_996392_2.WendtAnarchyiswhatstatesmakeofit1992.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/144708/20180351/miuDocumento_996392_2.WendtAnarchyiswhatstatesmakeofit1992.pdf.metadata.json
+- s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142918/12890465/miuDocumento_997275_2.SamuelSolonpp.16-43.pdf
+  -> s3://miu-documentos/DATA-DOCS/miu-hml/documentos/142918/12890465/miuDocumento_997275_2.SamuelSolonpp.16-43.pdf.metadata.json
