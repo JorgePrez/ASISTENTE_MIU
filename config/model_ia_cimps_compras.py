@@ -347,7 +347,12 @@ def limpiar_metadata_retrieved(docs):
     return docs
 
 # Base de conocimiento en compras
-BASE_CONOCIMIENTOS_CIMPS = "B0J6EB9XUO" 
+#BASE_CONOCIMIENTOS_CIMPS = "B0J6EB9XUO" 
+
+BASE_CONOCIMIENTOS_CIMPS = "UALUBVCZO1" 
+
+#                         "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/cohere.rerank-v3-5:0",
+
 
 
 def generar_configuracion_retriever(curso_impartido: str) -> dict:
@@ -357,7 +362,7 @@ def generar_configuracion_retriever(curso_impartido: str) -> dict:
             "rerankingConfiguration": {
                 "bedrockRerankingConfiguration": {
                     "modelConfiguration": {
-                        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/cohere.rerank-v3-5:0",
+                        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.rerank-v3-5:0",
                     },
                     "numberOfRerankedResults": 20,
                     "metadataConfiguration": {
@@ -479,7 +484,7 @@ def build_cimps_chain(curso_impartido: str | int ):
     curso_impartido = str(curso_impartido)  # aseguramos string
 
     retriever = AmazonKnowledgeBasesRetriever(
-        region_name="us-west-2",
+        region_name="us-east-1", # region_name="us-west-2
         knowledge_base_id=BASE_CONOCIMIENTOS_CIMPS,
         ##retrieval_config=generar_configuracion_retriever_all(curso_impartido)
         retrieval_config=generar_configuracion_retriever(curso_impartido)
