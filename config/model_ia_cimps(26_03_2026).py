@@ -347,7 +347,7 @@ def limpiar_metadata_retrieved(docs):
     return docs
 
 # Base de conocimiento en Bedrock
-BASE_CONOCIMIENTOS_CIMPS = "565O0EDJBJ" 
+BASE_CONOCIMIENTOS_CIMPS = "ZLSIIBQ6B3"  #
 
 
 
@@ -480,8 +480,8 @@ def build_cimps_chain(curso_impartido: str | int ):
     curso_impartido = str(curso_impartido)  # aseguramos string
 
     retriever = AmazonKnowledgeBasesRetriever(
-        region_name="us-east-1", # region_name="us-west-2
-        knowledge_base_id=BASE_CONOCIMIENTOS_CIMPS, #
+        region_name="us-west-2",
+        knowledge_base_id=BASE_CONOCIMIENTOS_CIMPS,
         ##retrieval_config=generar_configuracion_retriever_all(curso_impartido)
         retrieval_config=generar_configuracion_retriever(curso_impartido)
     )

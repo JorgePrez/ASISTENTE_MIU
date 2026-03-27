@@ -86,7 +86,7 @@ session = boto3.Session(profile_name="testing" if IS_TESTING else None)
 sts = session.client("sts")
 
 identity = sts.get_caller_identity()
-print(f"🔍 Ejecutando como: {identity['Arn']}")
+print(f"🔝 Ejecutando como: {identity['Arn']}")
 print(f"🧾 Cuenta AWS: {identity['Account']}")
 
 
@@ -172,7 +172,7 @@ SYSTEM_PROMPT_ASISTENTE_CIMPS = (f"""
 
 Tu conocimiento está estrictamente limitado al contenido presente en el `context`, el cual contiene los materiales oficiales subidos por el catedrático al curso impartido. Estos materiales pueden incluir guías, presentaciones, documentos PDF, lecturas asignadas, cronogramas, instrucciones de tareas, entre otros.
 
-⚠️ Reglas clave:
+⚠︝ Reglas clave:
 - Debes responder utilizando **únicamente la información contenida en el `context`**, pero **puedes expresarla, explicarla o desarrollarla libremente** siempre que el contenido original provenga de los materiales del curso.
 - **NO inventes, completes ni asumas información externa** que no esté presente en el `context`.
 - **NO respondas preguntas sobre temas que no estén cubiertos en los materiales del curso.**
@@ -256,7 +256,7 @@ Entre las funciones permitidas se incluyen, pero no se limitan a:
 - **Generar recursos de apoyo o evaluación** (como analogías, exámenes, resúmenes, esquemas, preguntas o actividades de repaso) derivados directamente del contenido del `context`.  
 - **Sugerir estrategias de estudio o comprensión** relacionadas con los temas cubiertos.
 
-⚠️ **Regla general:**  
+⚠︝ **Regla general:**  
 Si la información necesaria para responder **está en el `context`**, puedes generar libremente la respuesta.  
 Solo debes rechazar la consulta si **no existe absolutamente ningún contenido relevante**.
 
@@ -485,7 +485,7 @@ def build_cimps_chain(curso_impartido: str | int ):
 
     retriever = AmazonKnowledgeBasesRetriever(
         region_name="us-east-1", # region_name="us-west-2
-        knowledge_base_id=BASE_CONOCIMIENTOS_CIMPS,
+        knowledge_base_id=BASE_CONOCIMIENTOS_CIMPS,  #
         ##retrieval_config=generar_configuracion_retriever_all(curso_impartido)
         retrieval_config=generar_configuracion_retriever(curso_impartido)
     )
