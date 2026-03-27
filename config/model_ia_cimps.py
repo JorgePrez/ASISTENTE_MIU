@@ -358,7 +358,7 @@ def generar_configuracion_retriever(curso_impartido: str) -> dict:
             "rerankingConfiguration": {
                 "bedrockRerankingConfiguration": {
                     "modelConfiguration": {
-                        "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/cohere.rerank-v3-5:0",
+                        "modelArn": "arn:aws:bedrock:us-east-1::foundation-model/cohere.rerank-v3-5:0",
                     },
                     "numberOfRerankedResults": 20,
                     "metadataConfiguration": {
