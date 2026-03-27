@@ -1,0 +1,20 @@
+{
+  "source_index_host": "miu-documentos-vz16bim.svc.apw5-4e34-81fa.pinecone.io",
+  "target_index_host": "miu-documentos-east-vz16bim.svc.aped-4627-b74a.pinecone.io",
+  "source_namespace": "namespace ",
+  "target_namespace": "namespace ",
+  "filter": {
+    "x-amz-bedrock-kb-data-source-id": {
+      "$eq": "SN6AHHD0JV"
+    }
+  },
+  "stats": {
+    "pages_read": 1,
+    "records_found": 86,
+    "records_upserted": 86,
+    "upsert_batches_ok": 1,
+    "upsert_batches_failed": 0,
+    "start_time": 1774575039.0743175
+  },
+  "timestamp": "2026-03-26 19:30:42"
+}
