@@ -1,7 +1,7 @@
 import streamlit as st
 import config.dynamo_crud_compras as DynamoDatabase
 import uuid
-from config.model_ia_cimps_compras import run_cimps_chain 
+from config.model_ia_cimps_compras_streaming import run_cimps_chain 
 import requests
 
 from dotenv import load_dotenv
@@ -37,7 +37,8 @@ st.sidebar.markdown("<div style='height: 50px;'></div>", unsafe_allow_html=True)
 
 
 # Cargar variables de entorno
-load_dotenv()
+#load_dotenv()
+load_dotenv(override=True)
 client = Client()
 
 import os
@@ -161,7 +162,7 @@ def invoke_with_retries_procesos(run_chain_fn, question, history, config=None, m
 
         while attempt < max_retries:
             try:
-                print(f"Reintento {attempt + 1} de {max_retries}")
+                #print(f"Reintento {attempt + 1} de {max_retries}")
                 full_response = ""
 
                 for chunk in run_chain_fn(question, history):
@@ -216,7 +217,7 @@ def main():
             st.session_state.servidor =servidor = data.get("servidor")
             ts = data.get("ts")  # si lo usas
 
-            print(curso_impartido_id)
+            #print(curso_impartido_id)
 
         except Exception as e:
             st.error("⚠️ Acceso denegado compras ")
