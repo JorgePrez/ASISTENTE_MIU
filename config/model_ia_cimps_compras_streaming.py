@@ -574,7 +574,7 @@ def run_cimps_chain(question, history, curso_impartido):
     ):
         if chunk.get("usage_metadata"):
             final_usage_metadata = chunk["usage_metadata"]
-            print("PROMPT PRINCIPAL ASISTENTE MIU USAGE METADATA:", final_usage_metadata)
+            #print("PROMPT PRINCIPAL ASISTENTE MIU USAGE METADATA:", final_usage_metadata)
 
 
         yield {
