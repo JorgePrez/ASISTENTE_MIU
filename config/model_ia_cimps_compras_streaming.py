@@ -115,7 +115,6 @@ def _extraer_nombre_archivo(uri: str) -> str:
 ###########################################
 
 SYSTEM_PROMPT_ASISTENTE_CIMPS_FIJO = """
-(version 1 de prompt)
 Tu conocimiento está estrictamente limitado al contenido presente en el `context`, el cual contiene los materiales oficiales subidos por el catedrático al curso impartido. Estos materiales pueden incluir guías, presentaciones, documentos PDF, lecturas asignadas, cronogramas, instrucciones de tareas, entre otros.
 
 ## Reglas clave:
@@ -412,16 +411,8 @@ def docs_to_context(docs) -> str:
 def get_text_from_response(response) -> str:
     text_attr = getattr(response, "text", None)
 
-    if text_attr:
-        if callable(text_attr):
-            try:
-                value = text_attr()
-                if isinstance(value, str):
-                    return value.strip()
-            except Exception:
-                pass
-        elif isinstance(text_attr, str):
-            return text_attr.strip()
+    if isinstance(text_attr, str) and text_attr.strip():
+        return text_attr.strip()
 
     content = getattr(response, "content", None)
 
@@ -438,13 +429,6 @@ def get_text_from_response(response) -> str:
                     partes.append(text)
             else:
                 text = getattr(item, "text", None)
-
-                if callable(text):
-                    try:
-                        text = text()
-                    except Exception:
-                        text = None
-
                 if isinstance(text, str) and text.strip():
                     partes.append(text)
 
@@ -457,14 +441,7 @@ def get_text_from_response(response) -> str:
 def get_text_from_chunk(chunk) -> str:
     text_attr = getattr(chunk, "text", None)
 
-    if callable(text_attr):
-        try:
-            value = text_attr()
-            if isinstance(value, str):
-                return value
-        except Exception:
-            pass
-    elif isinstance(text_attr, str):
+    if isinstance(text_attr, str):
         return text_attr
 
     content = getattr(chunk, "content", None)
@@ -482,13 +459,6 @@ def get_text_from_chunk(chunk) -> str:
                     partes.append(text)
             else:
                 text = getattr(item, "text", None)
-
-                if callable(text):
-                    try:
-                        text = text()
-                    except Exception:
-                        text = None
-
                 if isinstance(text, str):
                     partes.append(text)
 
