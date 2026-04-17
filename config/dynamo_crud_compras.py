@@ -3,7 +3,7 @@ import json
 from botocore.exceptions import ClientError
 from datetime import datetime
 from boto3.dynamodb.conditions import Attr  
-import config.model_ia_cimps_compras as model  # para usar model.generate_name
+import config.model_ia_cimps_compras_streaming as model  # para usar model.generate_name
 
 # Inicializar recurso de DynamoDB
 dynamodb = boto3.resource("dynamodb", region_name="us-east-1")
