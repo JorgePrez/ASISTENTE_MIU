@@ -236,7 +236,7 @@ def main():
 
 
         # Obtener contexto desde la API
-    url = "https://intranet.ufm.edu/asistente_procesos_api.php"
+    url = "https://miu.ufm.edu/intranet/asistente_procesos_api.php"
     params = {
             "buscarCursoNombre": "true",
             "curso_impartido": curso_impartido_id

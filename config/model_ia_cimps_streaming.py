@@ -8,8 +8,12 @@ import re
 from urllib.parse import urlparse
 
 
+
+# link true https://miu.ufm.edu/intranet/asistente_procesos_api.php
+# https://intranet.ufm.edu/asistente_procesos_api.php
+
 def get_models_for_chatbots(app: str, is_testing: bool) -> dict:
-    url = "https://intranet.ufm.edu/asistente_procesos_api.php"
+    url = "https://miu.ufm.edu/intranet/asistente_procesos_api.php"
     params = {
         "getModelsForChatbots": "true",
         "app": app
