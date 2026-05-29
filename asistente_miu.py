@@ -198,7 +198,7 @@ def invoke_with_retries_procesos(run_chain_fn, question, history, config=None, m
                     warning_placeholder.markdown("⌛ Esperando generación de respuesta...", unsafe_allow_html=True)
                 print(f"Error inesperado en reintento {attempt}: {str(e)}")
                 if attempt == max_retries:
-                    warning_placeholder.markdown("⚠️ **No fue posible generar la respuesta, vuelve a intentar.**", unsafe_allow_html=True)
+                    warning_placeholder.markdown("⚠︝ **No fue posible generar la respuesta, vuelve a intentar.**", unsafe_allow_html=True)
 
 
 def main():
@@ -220,11 +220,11 @@ def main():
             #print(curso_impartido_id)
 
         except Exception as e:
-            st.error("⚠️ Acceso denegado")
+            st.error("⚠︝ Acceso denegado")
             st.stop()
 
     else:
-        st.error("⚠️ Acceso denegado.")
+        st.error("⚠︝ Acceso denegado.")
         st.stop()
 
     
@@ -301,7 +301,7 @@ def main():
 
         st.sidebar.markdown(f"""
             <div style="text-align: center; margin-bottom: 20px; margin-top: -25px;">
-                <img src="https://intranet.ufm.edu/reportesai/img_chatbot/UFM-LOGO-MATOR.png  " 
+                <img src="https://miu.ufm.edu/intranet/reportesai/img_chatbot/UFM-LOGO-MATOR.png  " 
                     style="width: 100%; max-width: 150px;">
             </div>
         """, unsafe_allow_html=True)
