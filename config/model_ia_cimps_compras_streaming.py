@@ -60,7 +60,7 @@ models = get_models_for_chatbots(app="MIU", is_testing=IS_TESTING)
 
 #5a591jsfbvu5
 #model_id_chat = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/5a591jsfbvu5"#"global.anthropic.claude-sonnet-5-5" #models["CHAT"]
-model_id_chat =  "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/5a591jsfbvu5"#"global.anthropic.claude-sonnet-5-5" #models["CHAT"]
+model_id_chat =   "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/bppzezvhryde"#"global.anthropic.claude-sonnet-5-5" #models["CHAT"]
 model_id_rename = models["RENAME"]
 
 
@@ -90,7 +90,7 @@ model = ChatBedrockConverse(
 )
 
 # Workaround  langchain-aws
-#model.disable_streaming = False
+model.disable_streaming = False
 
 modelNames = ChatBedrockConverse(
     client=bedrock_runtime,
