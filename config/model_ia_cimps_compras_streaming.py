@@ -57,7 +57,7 @@ IS_TESTING = False
 
 models = get_models_for_chatbots(app="MIU", is_testing=IS_TESTING)
 
-model_id_chat = models["CHAT"]
+model_id_chat = "global.anthropic.claude-sonnet-5-5" #models["CHAT"]
 model_id_rename = models["RENAME"]
 
 session = boto3.Session(profile_name="testing" if IS_TESTING else None)
