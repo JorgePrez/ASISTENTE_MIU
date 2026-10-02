@@ -61,7 +61,7 @@ IS_TESTING = False
 
 models = get_models_for_chatbots(app="MIU", is_testing=IS_TESTING)
 
-model_id_chat = models["CHAT"]
+model_id_chat = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/5a591jsfbvu5" #models["CHAT"]
 model_id_rename = models["RENAME"]
 
 session = boto3.Session(profile_name="testing" if IS_TESTING else None)

@@ -57,8 +57,13 @@ IS_TESTING = False
 
 models = get_models_for_chatbots(app="MIU", is_testing=IS_TESTING)
 
-model_id_chat = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/5a591jsfbvu5"#"global.anthropic.claude-sonnet-5-5" #models["CHAT"]
+
+#5a591jsfbvu5
+#model_id_chat = "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/5a591jsfbvu5"#"global.anthropic.claude-sonnet-5-5" #models["CHAT"]
+model_id_chat =  "arn:aws:bedrock:us-east-1:552102268375:application-inference-profile/5a591jsfbvu5"#"global.anthropic.claude-sonnet-5-5" #models["CHAT"]
 model_id_rename = models["RENAME"]
+
+
 
 session = boto3.Session(profile_name="testing" if IS_TESTING else None)
 
@@ -83,6 +88,9 @@ model = ChatBedrockConverse(
     provider="anthropic",
     disable_streaming=False,
 )
+
+# Workaround para versiones antiguas de langchain-aws
+model.disable_streaming = False
 
 modelNames = ChatBedrockConverse(
     client=bedrock_runtime,
